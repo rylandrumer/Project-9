@@ -1,0 +1,36 @@
+//Group Project
+//Toven Tungul, Rhyland Rumer
+//Make a game of memory!
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+getMenuChoice(int choice);
+preSetBoard();
+fillBoard();
+generateCoords();
+playGame();
+displayBoard();
+getUserInput();
+displayPair();
+checkMatch();
+gameWon();
+readScores();
+writeScores()
+saveScore();
+
+int main (){
+int choice;
+
+choice=getMenuChoice();
+
+
+return 0;
+}
+getMenuChoice(){
+int I;
+printf("***MEMORY!***\n");
+printf("1 - Play Game\n2 - Check Scores\n0 - EXIT\n");
+scanf("%d", &I);
+
+return I;
+}
