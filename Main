@@ -1,5 +1,5 @@
 //Group Project
-//Toven Tungul, Rhyland Rumer
+//Toven Tungul, Ryland Rumer
 //Make a game of memory!
 #include <stdio.h>
 #include <time.h>
